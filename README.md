@@ -18,4 +18,5 @@ Clumsy custom icons for BotC
 - chess king by b farias from the Noun Project
 - Witch by Kantor Tegalsari from the Noun Project
 - Spider by Olga from the Noun Project
-- Goat by tezar tantular from the Noun Project
+- Goat by Laymik from the Noun Project
+- Dog by Co-Effect Creative from the Noun Project
