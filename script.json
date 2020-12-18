@@ -148,7 +148,7 @@
         "setup": false,
         "name": "Revenant",
         "team": "townsfolk",
-        "ability": "If you die in the night and you later use your ghost vote on the Demon, the Demon is immediately executed."
+        "ability": "If you die in the night and the next day you use your ghost vote on the Demon, the Demon is executed immediately after the vote concludes."
     },
     {
         "id": "hallowed",
