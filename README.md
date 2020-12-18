@@ -1,6 +1,9 @@
 # botc-icons
 Clumsy custom icons for BotC
 
+# Links for use by bra1n
+Murder Masquerade: https://raw.githubusercontent.com/lilserf/botc-icons/main/script.json
+
 # Attribution
 
 - handcuff by tulpahn from the Noun Project
