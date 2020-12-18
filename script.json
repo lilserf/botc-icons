@@ -131,7 +131,7 @@
         "setup": false,
         "name": "Bailiff",
         "team": "townsfolk",
-        "ability": "If a player is executed, the player who nominated them cannot die until dawn, unless it was you."
+        "ability": "If a player is executed, the player who nominated them (if not yourself) cannot die until dawn."
     },
     {
         "id": "revenant",
@@ -222,8 +222,8 @@
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
+        "otherNight": 2,
+        "otherNightReminder": "If the Berserker did not nominate yesterday: The may die.",
         "reminders": [],
         "remindersGlobal": [],
         "setup": false,
@@ -246,7 +246,7 @@
         "setup": false,
         "name": "Lush",
         "team": "outsider",
-        "ability": "Any Good player who nominates you is drunk until dawn, even if you die."
+        "ability": "Any Good player who votes for you is drunk until dawn, even if you die."
     },
     {
         "id": "saint2",
@@ -285,14 +285,14 @@
         "image": "https://github.com/lilserf/botc-icons/blob/main/hecatomb.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
+        "firstNightReminder": "If the Hecatomb was executed yesterday: The Demon may act again.",
+        "otherNight": 5,
         "otherNightReminder": "",
         "reminders": [
             "Act Again"
         ],
         "remindersGlobal": [],
-        "setup": true,
+        "setup": false,
         "name": "Hecatomb",
         "team": "minion",
         "ability": "If you are executed, the Demon may act an additional time tonight. You may register as a Demon, even while dead."
@@ -330,14 +330,14 @@
         "setup": false,
         "name": "Provocateur",
         "team": "minion",
-        "ability": "Each night, choose two players. The first player must be Mad about executing the second player, or may be executed. You lose this ability if there are 4 or fewer alive players."
+        "ability": "Each night*, choose two players. The first player must be Mad about executing the second player, or may be executed. You lose this ability if there are 4 or fewer alive players."
     },
     {
         "id": "chemist",
         "image": "https://github.com/lilserf/botc-icons/blob/main/chemist.png?raw=true",
         "edition": "custom",
-        "firstNight": 3,
-        "firstNightReminder": "The Chemist points to a role. That role is poisoned (if in play).",
+        "firstNight": 0,
+        "firstNightReminder": "",
         "otherNight": 2,
         "otherNightReminder": "The Chemist points to a role. That role is poisoned (if in play).",
         "reminders": [
@@ -364,7 +364,7 @@
         "setup": false,
         "name": "Asmodeus",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. You may instead choose up to 3 player+role combinations. Any correct combinations are killed."
+        "ability": "Each night*, choose a player: they die. You may instead choose up to 3 player+role combinations. Any correct combinations die."
     },
     {
         "id": "xanatos",
@@ -398,7 +398,7 @@
         "setup": true,
         "name": "Tsuchigumo",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. If the player chosen was an Outsider and dies, you may act again. [+1 Outsiders]"
+        "ability": "Each night*, choose a player: they die. If the player chosen was an Outsider and dies, you may act again. [+1 Outsider]"
     },
     {
         "id": "keziah",
