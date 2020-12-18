@@ -416,6 +416,6 @@
         "setup": false,
         "name": "Keziah",
         "team": "demon",
-        "ability": "Each night*, you may choose a player who nominated someone yesterday: they die, even if for some reason they could not. If no one was nominated yesterday, you win."
+        "ability": "Each night*, you may choose a player who nominated someone yesterday: they die, even if for some reason they could not. If were no nominations or executions yesterday, you win."
     }
 ]
