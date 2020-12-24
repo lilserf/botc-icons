@@ -1,57 +1,54 @@
 [
     {
-        "id": "investigator2",
-        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/investigator.png?raw=true",
+        "id": "clerk",
+        "image": "https://github.com/lilserf/botc-icons/blob/main/clerk.png?raw=true",
         "edition": "custom",
         "firstNight": 4,
-        "firstNightReminder": "Show the role token of a Minion in play. Point to two players, one of whom is that role.",
-        "otherNight": 0,
-        "otherNightReminder": "",
+        "firstNightReminder": "Show the role token of a Townsfolk in play.",
+        "otherNight": 8,
+        "otherNightReminder": "Show the role token of a Townsfolk in play, or signal that no remaining roles are in play.",
         "reminders": [
-            "Minion",
-            "Decoy"
+            "Known"
         ],
         "remindersGlobal": [],
         "setup": false,
-        "name": "Investigator",
+        "name": "Clerk",
         "team": "townsfolk",
-        "ability": "You start knowing 1 of 2 players is a particular Minion."
+        "ability": "Each night, you learn a new Townsfolk role that is in play, until none are left."
     },
     {
-        "id": "librarian2",
-        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/librarian.png?raw=true",
+        "id": "Almoner",
+        "image": "https://github.com/lilserf/botc-icons/blob/main/almoner.png?raw=true",
         "edition": "custom",
         "firstNight": 5,
-        "firstNightReminder": "Show the role token of an Outsider in play. Point to two players, one of whom is that role.",
-        "otherNight": 0,
-        "otherNightReminder": "",
+        "firstNightReminder": "Show the role token of an Outsider in play.",
+        "otherNight": 9,
+        "otherNightReminder": "Show the role token of a Outsider in play, or signal that no remaining roles are in play.",
         "reminders": [
-            "Outsider",
-            "Decoy"
+            "Known"
         ],
         "remindersGlobal": [],
         "setup": false,
-        "name": "Librarian",
+        "name": "Almoner",
         "team": "townsfolk",
-        "ability": "You start knowing 1 of 2 players is a particular Outsider (or that zero are in play)."
+        "ability": "Each night, you learn a new Outsider role that is in play, until none are left."
     },
     {
-        "id": "washerwoman2",
-        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/washerwoman.png?raw=true",
+        "id": "urchin",
+        "image": "https://github.com/lilserf/botc-icons/blob/main/urchin.png?raw=true",
         "edition": "custom",
         "firstNight": 6,
-        "firstNightReminder": "Show the role token of a Townsfolk in play. Point to two players, one of whom is that role.",
-        "otherNight": 0,
-        "otherNightReminder": "",
+        "firstNightReminder": "Point to a player who is not a Minion.",
+        "otherNight": 10,
+        "otherNightReminder": "Point to a player who is not a Minion.",
         "reminders": [
-            "Townsfolk",
-            "Decoy"
+            "Known"
         ],
         "remindersGlobal": [],
         "setup": false,
-        "name": "Washerwoman",
+        "name": "Urchin",
         "team": "townsfolk",
-        "ability": "You start knowing 1 of 2 players is a particular Townsfolk."
+        "ability": "Each night, you learn a player who is not a Minion."
     },
     {
         "id": "undertaker2",
