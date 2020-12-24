@@ -104,7 +104,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 2,
-        "otherNightRe2inder": "Ask the Martyr if they want to use their ability. If so, they die, even if for some reason they could not, and no other characters can die tonight",
+        "otherNightReminder": "Ask the Martyr if they want to use their ability. If so, they die, even if for some reason they could not, and no other characters can die tonight",
         "reminders": [
             "Protection"
         ],
