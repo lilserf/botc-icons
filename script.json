@@ -156,7 +156,9 @@
         "firstNightReminder": "",
         "otherNight": 13,
         "otherNightReminder": "If the Confessor was nominated yesterday: they learn the role of their nominator (but they are drunk if that was the Demon).",
-        "reminders": ["Nominated"],
+        "reminders": [
+            "Nominated"
+        ],
         "remindersGlobal": [],
         "setup": false,
         "name": "Confessor",
