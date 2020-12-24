@@ -59,7 +59,7 @@
         "otherNight": 11,
         "otherNightReminder": "If a player was executed today: Show that player's role token.",
         "reminders": [
-            "Executed
+            "Executed"
         ],
         "remindersGlobal": [],
         "setup": false,
