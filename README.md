@@ -27,3 +27,5 @@ Murder Masquerade: https://raw.githubusercontent.com/lilserf/botc-icons/main/scr
 - newsboy cap by parkjisun from the Noun Project
 - Rosary by Ben Davis from the Noun Project
 - Saint Heart by Andrejs Kirma from the Noun Project
+- flogger by Smalllike from the Noun Project
+- donation by Hat-Tech from the Noun Project
