@@ -246,7 +246,7 @@
         "setup": false,
         "name": "Lush",
         "team": "outsider",
-        "ability": "Any Good player who votes for you is drunk until dawn, even if you die."
+        "ability": "Any Townsfolk who vote for you are drunk until dawn, even if you die."
     },
     {
         "id": "saint2",
@@ -292,10 +292,10 @@
             "Act Again"
         ],
         "remindersGlobal": [],
-        "setup": false,
+        "setup": true,
         "name": "Hecatomb",
         "team": "minion",
-        "ability": "If you are executed, the Demon may act an additional time tonight. You may register as a Demon, even while dead."
+        "ability": "If you are executed, the Demon may act an additional time tonight. You may register as a Demon, even while dead. [+1 Outsider]"
     },
     {
         "id": "executioner",
@@ -407,15 +407,15 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 3,
-        "otherNightReminder": "Keziah may pick a player. If that player did not nominate yesterday, signal no and ask Keziah to pick again. The chosen player dies.",
+        "otherNightReminder": "Keziah picks a player: They die. Keziah may then pick a player who nominated a currently alive Evil player yesterday: they die.",
         "reminders": [
             "Die",
-            "Nominator"
+            "Nominated Evil"
         ],
         "remindersGlobal": [],
         "setup": false,
         "name": "Keziah",
         "team": "demon",
-        "ability": "Each night*, you may choose a player who nominated someone yesterday: they die, even if for some reason they could not. If were no nominations or executions yesterday, you win."
+        "ability": "Each night*, choose a player: they die. Then, you may choose someone who nominated a currently alive Evil player yesterday: they die."
     }
 ]
