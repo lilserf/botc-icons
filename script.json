@@ -285,9 +285,9 @@
         "image": "https://github.com/lilserf/botc-icons/blob/main/hecatomb.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
-        "firstNightReminder": "If the Hecatomb was executed yesterday: The Demon may act again.",
+        "firstNightReminder": "",
         "otherNight": 4,
-        "otherNightReminder": "",
+        "otherNightReminder": "If the Hecatomb was executed yesterday: The Demon may act again.",
         "reminders": [
             "Act Again"
         ],
