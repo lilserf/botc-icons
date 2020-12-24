@@ -56,9 +56,11 @@
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 6,
+        "otherNight": 11,
         "otherNightReminder": "If a player was executed today: Show that player's role token.",
-        "reminders": [],
+        "reminders": [
+            "Executed
+        ],
         "remindersGlobal": [],
         "setup": false,
         "name": "Undertaker",
@@ -71,7 +73,7 @@
         "edition": "custom",
         "firstNight": 7,
         "firstNightReminder": "The Dreamer points to a player. Show them one good and one evil role token; one of these is correct.",
-        "otherNight": 6,
+        "otherNight": 12,
         "otherNightReminder": "The Dreamer points to a player. Show them one good and one evil role token; one of these is correct.",
         "reminders": [],
         "remindersGlobal": [],
@@ -81,37 +83,36 @@
         "ability": "Each night, choose a player (not yourself): you learn 1 good and 1 evil role, 1 of which is correct."
     },
     {
-        "id": "gambler2",
-        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/gambler.png?raw=true",
+        "id": "sinner",
+        "image": "https://github.com/lilserf/botc-icons/blob/main/sinner.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 6,
-        "otherNightReminder": "The Gambler points to a player, and a role on the sheet. If incorrect, the Gambler dies.",
+        "otherNight": 0,
+        "otherNightReminder": "",
         "reminders": [],
         "remindersGlobal": [],
         "setup": false,
-        "name": "Gambler",
+        "name": "Sinner",
         "team": "townsfolk",
-        "ability": "Each night*, choose a player and guess their role: if you guess wrong, you die."
+        "ability": "If you nominate a Townsfolk, you are immediately executed."
     },
     {
-        "id": "innkeeper2",
-        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/innkeeper.png?raw=true",
+        "id": "martyr",
+        "image": "https://github.com/lilserf/botc-icons/blob/main/martyr.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 3,
-        "otherNightReminder": "The previously protected and drunk players lose those markers. The Innkeeper points to two players. Those players are protected. One is drunk.",
+        "otherNight": 2,
+        "otherNightRe2inder": "Ask the Martyr if they want to use their ability. If so, they die, even if for some reason they could not, and no other characters can die tonight",
         "reminders": [
-            "Protected",
-            "Drunk"
+            "Protection"
         ],
         "remindersGlobal": [],
         "setup": false,
-        "name": "Innkeeper",
+        "name": "Martyr",
         "team": "townsfolk",
-        "ability": "Each night*, choose 2 players: they cannot die tonight, but 1 is drunk until dusk."
+        "ability": "At night* you may protect all other players from death. If you do, you die, even if for some reason you could not."
     },
     {
         "id": "bailiff",
@@ -148,19 +149,19 @@
         "ability": "If you die in the night and the next day you use your ghost vote on the Demon, the Demon is executed immediately after the vote concludes."
     },
     {
-        "id": "hallowed",
-        "image": "https://github.com/lilserf/botc-icons/blob/main/hallowed.png?raw=true",
+        "id": "confessor",
+        "image": "https://github.com/lilserf/botc-icons/blob/main/confessor.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
+        "otherNight": 13,
+        "otherNightReminder": "If the Confessor was nominated yesterday: they learn the role of their nominator (but they are drunk if that was the Demon).",
+        "reminders": ["Nominated"],
         "remindersGlobal": [],
         "setup": false,
-        "name": "Hallowed",
+        "name": "Confessor",
         "team": "townsfolk",
-        "ability": "If you are nominated by a Minion, they are immediately executed."
+        "ability": "Each night*, you learn the role of the player who nominated you yesterday. If you are nominated by the Demon, you are drunk until dawn."
     },
     {
         "id": "sawbones",
@@ -168,7 +169,7 @@
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 7,
+        "otherNight": 15,
         "otherNightReminder": "If the Sawbones has not used used their ability: The Sawbones may pick a role. If that role is not in play and there is a dead Good player, one of them is now alive and becomes that role.",
         "reminders": [
             "Used"
@@ -185,7 +186,7 @@
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 6,
+        "otherNight": 14,
         "otherNightReminder": "If the Bloodhound has not used their ability: The Bloodhound may pick a role besides the Bloodhound. If the Demon has an alive neighbor with that role, signal Yes; otherwise, signal No.",
         "reminders": [
             "Used"
@@ -219,7 +220,7 @@
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 2,
+        "otherNight": 7,
         "otherNightReminder": "If the Berserker did not nominate yesterday: The may die.",
         "reminders": [],
         "remindersGlobal": [],
@@ -283,7 +284,7 @@
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "If the Hecatomb was executed yesterday: The Demon may act again.",
-        "otherNight": 5,
+        "otherNight": 4,
         "otherNightReminder": "",
         "reminders": [
             "Act Again"
@@ -317,7 +318,7 @@
         "edition": "custom",
         "firstNight": 9,
         "firstNightReminder": "The Provocateur points to one player, then another. The first player is then woken and told they are Mad about executing the second player.",
-        "otherNight": 8,
+        "otherNight": 6,
         "otherNightReminder": "The Provocateur points to one player, then another. The first player is then woken and told they are Mad about executing the second player.",
         "reminders": [
             "Mad",
@@ -335,7 +336,7 @@
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 2,
+        "otherNight": 1,
         "otherNightReminder": "The Chemist points to a role. That role is poisoned (if in play).",
         "reminders": [
             "Poisoned"
@@ -352,7 +353,7 @@
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 4,
+        "otherNight": 3,
         "otherNightReminder": "Asmodeus may either point to a player, or pick three player+role combinations. In the first case, that player dies. In the second case, any correct matches die.",
         "reminders": [
             "Die"
@@ -369,7 +370,7 @@
         "edition": "custom",
         "firstNight": 10,
         "firstNightReminder": "Show the Grimoire to Xanatos for as long as they need.",
-        "otherNight": 4,
+        "otherNight": 3,
         "otherNightReminder": "Xanatos picks a player. They die.",
         "reminders": [
             "Die"
@@ -386,7 +387,7 @@
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 4,
+        "otherNight": 3,
         "otherNightReminder": "The Tsuchigumo picks a player. If they are an Outsider and can die, signal that the Tsuchigumo may pick again. This repeats as long as the Tsuchigumo picks Outsiders that can die.",
         "reminders": [
             "Die"
@@ -403,7 +404,7 @@
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 4,
+        "otherNight": 3,
         "otherNightReminder": "Keziah may pick a player. If that player did not nominate yesterday, signal no and ask Keziah to pick again. The chosen player dies.",
         "reminders": [
             "Die",
