@@ -112,7 +112,7 @@
         "setup": false,
         "name": "Martyr",
         "team": "townsfolk",
-        "ability": "At night* you may protect all other players from death. If you do, you die, even if for some reason you could not."
+        "ability": "At night* you may choose to protect all other players from death. If you do, you die, even if for some reason you could not."
     },
     {
         "id": "bailiff",
@@ -172,7 +172,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 15,
-        "otherNightReminder": "If the Sawbones has not used used their ability: The Sawbones may pick a role. If that role is not in play and there is a dead Good player, one of them is now alive and becomes that role.",
+        "otherNightReminder": "If the Sawbones has not used used their ability: The Sawbones may pick a Townsfolk role. If that role is not in play and there is a dead Good player, one of them is now alive and becomes that role.",
         "reminders": [
             "Used"
         ],
@@ -180,7 +180,7 @@
         "setup": false,
         "name": "Sawbones",
         "team": "townsfolk",
-        "ability": "Once per game, at night*, you may pick a Townsfolk role. If that role is not in play, a dead Good player is resurrected as that role (if possible)."
+        "ability": "Once per game, at night*, you may pick a Townsfolk role. If that role is not in play, a dead good player is resurrected as that role (if possible)."
     },
     {
         "id": "bloodhound",
@@ -197,7 +197,7 @@
         "setup": false,
         "name": "Bloodhound",
         "team": "townsfolk",
-        "ability": "Once per game, at night*, you may pick a Townsfolk role (other than yourself). You learn if a Demon has an alive neighbor with that role."
+        "ability": "Once per game, at night*, you may pick a Townsfolk role (other than yourself). You learn if the Demon has an alive neighbor with that role."
     },
     {
         "id": "sleuth",
@@ -295,7 +295,7 @@
         "setup": true,
         "name": "Hecatomb",
         "team": "minion",
-        "ability": "If you are executed, the Demon may act an additional time tonight. You may register as a Demon, even while dead. [+1 Outsider]"
+        "ability": "If you are executed, the Demon may act an additional time tonight. You may register as the Demon, even while dead. [+1 Outsider]"
     },
     {
         "id": "executioner",
@@ -304,7 +304,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 5,
-        "otherNightReminder": "If no one was executed yesterday: The Executioner points at someone who was nominated yesterday. They die.",
+        "otherNightReminder": "If no one was executed yesterday, the Executioner points at someone who was nominated yesterday: they die.",
         "reminders": [
             "Nominated"
         ],
@@ -336,8 +336,8 @@
         "id": "chemist",
         "image": "https://github.com/lilserf/botc-icons/blob/main/chemist.png?raw=true",
         "edition": "custom",
-        "firstNight": 0,
-        "firstNightReminder": "",
+        "firstNight": 3,
+        "firstNightReminder": "The Chemist points to a role. That role is poisoned (if in play).",
         "otherNight": 1,
         "otherNightReminder": "The Chemist points to a role. That role is poisoned (if in play).",
         "reminders": [
@@ -347,7 +347,7 @@
         "setup": false,
         "name": "Chemist",
         "team": "minion",
-        "ability": "Each night*, choose a role. Any player with that role is poisoned until dusk."
+        "ability": "Each night, choose a role. Any player with that role is poisoned until dusk."
     },
     {
         "id": "asmodeus",
@@ -364,7 +364,7 @@
         "setup": false,
         "name": "Asmodeus",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. You may instead choose up to 3 player+role combinations. Any correct combinations die."
+        "ability": "Each night*, choose a player: they die. You may instead choose up to 3 player+role combinations: any correct combinations die."
     },
     {
         "id": "xanatos",
@@ -373,7 +373,7 @@
         "firstNight": 10,
         "firstNightReminder": "Show the Grimoire to Xanatos for as long as they need.",
         "otherNight": 3,
-        "otherNightReminder": "Xanatos picks a player. They die.",
+        "otherNightReminder": "Show the Grimoire to Xanatos for as long as they need, who then picks a player: they die.",
         "reminders": [
             "Die"
         ],
@@ -381,7 +381,7 @@
         "setup": false,
         "name": "Xanatos",
         "team": "demon",
-        "ability": "The first night, you may look at the Grimoire. Each night*, choose a player: they die. "
+        "ability": "The first night, you may look at the Grimoire. Each night*, you may look at the the Grimoire, then choose a player: they die. "
     },
     {
         "id": "tsuchigumo",
@@ -407,7 +407,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 3,
-        "otherNightReminder": "Keziah picks a player: They die. Keziah may then pick a player who nominated a currently alive Evil player yesterday: they die.",
+        "otherNightReminder": "Each night*, choose a player: they die. Then, you may choose someone who unsuccesfully nominated an evil player yesterday: they die.",
         "reminders": [
             "Die",
             "Nominated Evil"
@@ -416,6 +416,6 @@
         "setup": false,
         "name": "Keziah",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. Then, you may choose someone who nominated a currently alive Evil player yesterday: they die."
+        "ability": "Each night*, choose a player: they die. Then, you may choose someone who unsuccesfully nominated an evil player yesterday: they die."
     }
 ]
