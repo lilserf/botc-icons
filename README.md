@@ -25,3 +25,5 @@ Murder Masquerade: https://raw.githubusercontent.com/lilserf/botc-icons/main/scr
 - Dog by Co-Effect Creative from the Noun Project
 - quill by adekuncoro from the Noun Project
 - newsboy cap by parkjisun from the Noun Project
+- Rosary by Ben Davis from the Noun Project
+- Saint Heart by Andrejs Kirma from the Noun Project
