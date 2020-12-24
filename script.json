@@ -38,9 +38,9 @@
         "image": "https://github.com/lilserf/botc-icons/blob/main/urchin.png?raw=true",
         "edition": "custom",
         "firstNight": 6,
-        "firstNightReminder": "Point to a player who is not a Minion.",
+        "firstNightReminder": "Point to an alive player who is not a Minion.",
         "otherNight": 10,
-        "otherNightReminder": "Point to a player who is not a Minion.",
+        "otherNightReminder": "Point to an alive player who is not a Minion.",
         "reminders": [
             "Known"
         ],
@@ -48,7 +48,7 @@
         "setup": false,
         "name": "Urchin",
         "team": "townsfolk",
-        "ability": "Each night, you learn a player who is not a Minion."
+        "ability": "Each night, you learn an alive player who is not a Minion."
     },
     {
         "id": "undertaker2",
@@ -95,7 +95,7 @@
         "setup": false,
         "name": "Sinner",
         "team": "townsfolk",
-        "ability": "If you nominate a Townsfolk, you are immediately executed."
+        "ability": "The first time you nominate, if that player is a Townsfolk, you are immediately executed."
     },
     {
         "id": "martyr",
