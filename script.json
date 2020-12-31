@@ -1,10 +1,5 @@
 [
     {
-        "id": "_meta",
-        "name": "Murder Masquerade",
-        "author": "Greg Muller, Mark Haines, Colin Campbell, et al"
-    }
-    {
         "id": "clerk",
         "image": "https://github.com/lilserf/botc-icons/blob/main/clerk.png?raw=true",
         "edition": "custom",
