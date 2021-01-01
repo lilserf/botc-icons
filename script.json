@@ -423,4 +423,10 @@
         "team": "demon",
         "ability": "Each night*, choose a player: they die. Then, you may choose someone who unsuccesfully nominated an evil player yesterday: they die."
     }
+    {
+        "id": "scapegoat",
+    }
+    {
+        "id": "apprentice",
+    }
 ]
