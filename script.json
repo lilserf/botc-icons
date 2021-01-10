@@ -129,7 +129,7 @@
         "setup": false,
         "name": "Bailiff",
         "team": "townsfolk",
-        "ability": "If a player is executed, the player who nominated them (if not yourself) cannot die until dawn."
+        "ability": "(New) Any player you nominate cannot die until dawn, except by execution."
     },
     {
         "id": "revenant",
@@ -146,7 +146,7 @@
         "setup": false,
         "name": "Revenant",
         "team": "townsfolk",
-        "ability": "If you die in the night and the next day you use your ghost vote on the Demon, the Demon is executed immediately after the vote concludes."
+        "ability": "(New) When you learn that you have died at night, publicly choose a player. If they are evil: They die."
     },
     {
         "id": "confessor",
