@@ -420,17 +420,19 @@
     },
     {
         "id": "scapegoat2",
-        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scapegoat.png?raw=true",
+        "image": "https://github.com/lilserf/botc-icons/blob/main/clerk.png?raw=true",
         "edition": "custom",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": ,
-        "otherNightReminder": "",
-        "reminders": [],
+        "firstNight": 4,
+        "firstNightReminder": "Show the role token of a Townsfolk in play.",
+        "otherNight": 8,
+        "otherNightReminder": "Show the role token of a Townsfolk in play, or signal that no remaining roles are in play.",
+        "reminders": [
+            "Known"
+        ],
         "remindersGlobal": [],
         "setup": false,
-        "name": "Scapegoat",
+        "name": "Clerk",
         "team": "townsfolk",
-        "ability": "If a player of your alignment is executed, you might be executed instead."
+        "ability": "Each night, you learn a new Townsfolk role that is in play, until none are left."
     }
 ]
