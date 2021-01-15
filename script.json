@@ -249,19 +249,22 @@
         "ability": "Any Townsfolk who vote for you are drunk until dawn, even if you die."
     },
     {
-        "id": "saint2",
-        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/saint.png?raw=true",
+        "id": "muckraker",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/amnesiac.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
+        "otherNight": 2.5,
+        "otherNightReminder": "If possible, the Muckraker points to an alive player they haven't yet chosen, and then a role. If that player is good and is not that role: the Muckraker dies.",
         "reminders": [],
-        "remindersGlobal": [],
+        "remindersGlobal": [
+            "Already Chosen",
+            "Die"
+        ],
         "setup": false,
-        "name": "Saint",
+        "name": "Muckraker",
         "team": "outsider",
-        "ability": "If you die by execution, your team loses."
+        "ability": "Each night*, choose an alive player you have not already chosen (if possible) and then choose a role. If they are good and are not that role: you die."
     },
     {
         "id": "drunk2",
