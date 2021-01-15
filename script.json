@@ -430,7 +430,7 @@
         "remindersGlobal": [],
         "setup": false,
         "name": "Scapegoat",
-        "team": "traveler",
+        "team": "townsfolk",
         "ability": "If a player of your alignment is executed, you might be executed instead."
     }
 ]
