@@ -417,5 +417,20 @@
         "name": "Keziah",
         "team": "demon",
         "ability": "Each night*, choose a player: they die. Then, you may choose someone who unsuccesfully nominated an evil player yesterday: they die."
+    },
+    {
+        "id": "scapegoat2",
+        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/scapegoat.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": ,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Scapegoat",
+        "team": "traveler",
+        "ability": "If a player of your alignment is executed, you might be executed instead."
     }
 ]
