@@ -432,7 +432,7 @@
         "remindersGlobal": [],
         "setup": false,
         "name": "Clerk",
-        "team": "townsfolk",
+        "team": "traveler",
         "ability": "Each night, you learn a new Townsfolk role that is in play, until none are left."
     }
 ]
