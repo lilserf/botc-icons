@@ -137,10 +137,11 @@
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
+        "otherNight": 0.5,
+        "otherNightReminder": "If the Revenant died last night and the player they chose was evil, that player dies.",
         "reminders": [
-            "Died at night"
+            "Died at night",
+            "Chosen"
         ],
         "remindersGlobal": [],
         "setup": false,
@@ -255,7 +256,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 2.5,
-        "otherNightReminder": "If possible, the Muckraker points to an alive player they haven't yet chosen, and then a role. If that player is good and is not that role: the Muckraker dies.",
+        "otherNightReminder": "(New) If possible, the Muckraker points to an alive player they haven't yet chosen, and then a role. If that player is good and is not that role: the Muckraker dies.",
         "reminders": [],
         "remindersGlobal": [
             "Already Chosen",
