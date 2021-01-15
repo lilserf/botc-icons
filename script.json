@@ -417,22 +417,5 @@
         "name": "Keziah",
         "team": "demon",
         "ability": "Each night*, choose a player: they die. Then, you may choose someone who unsuccesfully nominated an evil player yesterday: they die."
-    },
-    {
-        "id": "scapegoat2",
-        "image": "https://github.com/lilserf/botc-icons/blob/main/clerk.png?raw=true",
-        "edition": "custom",
-        "firstNight": 4,
-        "firstNightReminder": "Show the role token of a Townsfolk in play.",
-        "otherNight": 8,
-        "otherNightReminder": "Show the role token of a Townsfolk in play, or signal that no remaining roles are in play.",
-        "reminders": [
-            "Known"
-        ],
-        "remindersGlobal": [],
-        "setup": false,
-        "name": "Clerk",
-        "team": "traveler",
-        "ability": "Each night, you learn a new Townsfolk role that is in play, until none are left."
     }
 ]
