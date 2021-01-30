@@ -137,8 +137,8 @@
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 0.5,
-        "otherNightReminder": "If the Revenant died last night and the player they chose was evil, that player dies.",
+        "otherNight": 0,
+        "otherNightReminder": "",
         "reminders": [
             "Died at night",
             "Chosen"
@@ -156,7 +156,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 13,
-        "otherNightReminder": "If the Confessor was nominated yesterday: they learn the role of their nominator (but they are drunk if that was the Demon).",
+        "otherNightReminder": "If the Confessor was nominated yesterday: they learn the role of their nominator (but they are poisoned if that was the Demon).",
         "reminders": [
             "Nominated"
         ],
@@ -164,7 +164,7 @@
         "setup": false,
         "name": "Confessor",
         "team": "townsfolk",
-        "ability": "Each night*, you learn the role of the player who nominated you yesterday. If you are nominated by the Demon, you are drunk until dawn."
+        "ability": "Each night*, you learn the role of the player who nominated you yesterday. If you are nominated by the Demon, you are poisoned until dawn."
     },
     {
         "id": "sawbones",
@@ -334,7 +334,7 @@
         "setup": false,
         "name": "Provocateur",
         "team": "minion",
-        "ability": "Each night*, choose two players. The first player must be Mad about executing the second player, or may be executed. You lose this ability if there are 4 or fewer alive players."
+        "ability": "Each night, choose two players. The first player must be Mad about executing the second player, or may be executed. You lose this ability if there are 4 or fewer alive players."
     },
     {
         "id": "chemist",
