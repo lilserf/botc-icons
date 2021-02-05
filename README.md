@@ -31,3 +31,4 @@ Murder Masquerade: https://raw.githubusercontent.com/lilserf/botc-icons/main/scr
 - donation by Hat-Tech from the Noun Project
 - masquerade by monkik from the Noun Project
 - coronavirus by Adrien Coquet from the Noun Project
+- item scroll by Maxicons from the Noun Project
