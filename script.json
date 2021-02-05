@@ -301,21 +301,21 @@
         "ability": "If you are executed, the Demon may act an additional time tonight. You may register as the Demon, even while dead. [+1 Outsider]"
     },
     {
-        "id": "executioner",
-        "image": "https://github.com/lilserf/botc-icons/blob/main/executioner.png?raw=true",
+        "id": "sorcerer",
+        "image": "https://github.com/lilserf/botc-icons/blob/main/sorcerer.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 5,
-        "otherNightReminder": "If no one was executed yesterday, the Executioner points at someone who was nominated yesterday: they die.",
+        "otherNightReminder": "The Sorcerer may point to a player and then a role. If they are correct, that player dies. If they are incorrect, the Sorcerer dies.",
         "reminders": [
-            "Nominated"
+            "Die"
         ],
         "remindersGlobal": [],
         "setup": false,
-        "name": "Executioner",
+        "name": "Sorcerer",
         "team": "minion",
-        "ability": "Each night*, if no one was executed yesterday, you may kill a player who was nominated."
+        "ability": "(New) Each night*, you may choose a player and a role. If that player has that role: they die. If not: you die."
     },
     {
         "id": "provocateur",
@@ -410,16 +410,16 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 3,
-        "otherNightReminder": "Each night*, choose a player: they die. Then, you may choose someone who unsuccesfully nominated an evil player yesterday: they die.",
+        "otherNightReminder": "Keziah picks a player: they die. Then, if no one was executed yesterday: Keziak may pick someone who was nominated yesterday. they die.",
         "reminders": [
             "Die",
-            "Nominated Evil"
+            "Nominated"
         ],
         "remindersGlobal": [],
         "setup": false,
         "name": "Keziah",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. Then, you may choose someone who unsuccesfully nominated an evil player yesterday: they die."
+        "ability": "(New) Each night*, choose a player: they die. Then, if no one was executed yesterday, you may choose a player who was nominated: they die."
     },
     {
         "id": "apprentice"
