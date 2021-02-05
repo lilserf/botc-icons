@@ -29,3 +29,5 @@ Murder Masquerade: https://raw.githubusercontent.com/lilserf/botc-icons/main/scr
 - Saint Heart by Andrejs Kirma from the Noun Project
 - flogger by Smalllike from the Noun Project
 - donation by Hat-Tech from the Noun Project
+- masquerade by monkik from the Noun Project
+- coronavirus by Adrien Coquet from the Noun Project
