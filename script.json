@@ -256,7 +256,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 0.25,
-        "otherNightReminder": "If the Blighted was executed last night, wake a Townsfolk player and tell them they are now the Blighted.",
+        "otherNightReminder": "If the Blighted was executed yesterday, wake a Townsfolk player and tell them they are now the Blighted.",
         "reminders": [
             "Executed"
         ],
@@ -264,7 +264,7 @@
         "setup": false,
         "name": "Blighted",
         "team": "outsider",
-        "ability": "If you are executed, a Townsfolk player's role changes to Blighted tonight."
+        "ability": "(New) If you are executed, a Townsfolk player's role changes to Blighted tonight."
     },
     {
         "id": "drunk2",
