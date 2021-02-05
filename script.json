@@ -427,5 +427,8 @@
         "name": "Apprentice",
         "team": "traveler",
         "ability": "On your 1st night, you gain a Townsfolk ability (if good) or a Minion ability (if evil)."
+    },
+    {
+        "id": "scapegoat"
     }
 ]
