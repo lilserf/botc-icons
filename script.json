@@ -440,28 +440,4 @@
         "team": "traveler",
         "ability": "Each night, choose a dead player. You gain their ability until tomorrow night, but you are not told what it is."
     },
-    {
-        "id": "fishmonger",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "remindersGlobal": [],
-        "name": "Fishmonger",
-        "team": "traveler",
-        "ability": "During the night, you direct message players and they can direct message you."
-    },
-    {
-        "id": "weaponsmith",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "remindersGlobal": [],
-        "name": "Weaponsmith",
-        "team": "traveler",
-        "ability": "When nominations open, pick any number of players. Their votes count double today."
-    }
 ]
