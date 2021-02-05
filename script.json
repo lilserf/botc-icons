@@ -37,10 +37,10 @@
         "id": "urchin",
         "image": "https://github.com/lilserf/botc-icons/blob/main/urchin.png?raw=true",
         "edition": "custom",
-        "firstNight": 6,
-        "firstNightReminder": "Point to an alive player who is not a Minion.",
-        "otherNight": 10,
-        "otherNightReminder": "Point to an alive player who is not a Minion.",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
         "reminders": [
             "Known"
         ],
@@ -48,7 +48,7 @@
         "setup": false,
         "name": "Urchin",
         "team": "townsfolk",
-        "ability": "Each night, you learn an alive player who is not a Minion."
+        "ability": "(New) Once each day, you may privately ask the Storyteller if a certain player is a Minion."
     },
     {
         "id": "undertaker2",
@@ -129,7 +129,7 @@
         "setup": false,
         "name": "Bailiff",
         "team": "townsfolk",
-        "ability": "(New) Any player you nominate cannot die until dawn, except by execution."
+        "ability": "Any player you nominate cannot die until dawn, except by execution."
     },
     {
         "id": "revenant",
@@ -147,7 +147,7 @@
         "setup": false,
         "name": "Revenant",
         "team": "townsfolk",
-        "ability": "(New) When you learn that you have died at night, publicly choose a player. If they are evil: They die."
+        "ability": "When you learn that you have died at night, publicly choose a player. If they are evil: They die."
     },
     {
         "id": "confessor",
@@ -190,7 +190,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 14,
-        "otherNightReminder": "If the Bloodhound has not used their ability: The Bloodhound may pick a role besides the Bloodhound. If the Demon has an alive neighbor with that role, signal Yes; otherwise, signal No.",
+        "otherNightReminder": "The Bloodhound picks a role besides the Bloodhound. If there is an alive player with that role and any of their alive neighbors are evil, signal Yes; otherwise, signal No.",
         "reminders": [
             "Used"
         ],
@@ -198,7 +198,7 @@
         "setup": false,
         "name": "Bloodhound",
         "team": "townsfolk",
-        "ability": "Once per game, at night*, you may pick a Townsfolk role (other than yourself). You learn if the Demon has an alive neighbor with that role."
+        "ability": "(New) Each night*, choose a Townsfolk role besides Bloodhound. You learn if an alive evil player has an alive neighbor with that role."
     },
     {
         "id": "sleuth",
@@ -256,7 +256,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 2.5,
-        "otherNightReminder": "(New) If possible, the Muckraker points to an alive player they haven't yet chosen, and then a role. If that player is good and is not that role: the Muckraker dies.",
+        "otherNightReminder": "If possible, the Muckraker points to an alive player they haven't yet chosen, and then a role. If that player is good and is not that role: the Muckraker dies.",
         "reminders": [],
         "remindersGlobal": [
             "Already Chosen",
@@ -382,10 +382,10 @@
             "Die"
         ],
         "remindersGlobal": [],
-        "setup": false,
+        "setup": true,
         "name": "Xanatos",
         "team": "demon",
-        "ability": "The first night, you may look at the Grimoire. Each night*, you may look at the the Grimoire, then choose a player: they die. "
+        "ability": "The first night, you may look at the Grimoire. Each night*, you may look at the the Grimoire, then choose a player: they die. [-1 Outsider]"
     },
     {
         "id": "tsuchigumo",
@@ -394,7 +394,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 3,
-        "otherNightReminder": "The Tsuchigumo picks a player. If they are an Outsider and can die, signal that the Tsuchigumo may pick again. This repeats as long as the Tsuchigumo picks Outsiders that can die.",
+        "otherNightReminder": "The Tsuchigumo picks a player: they die. They also pick an Outsider role: if the chosen player has that role, signal that the Tsuchigumo may pick again.",
         "reminders": [
             "Die"
         ],
@@ -402,7 +402,7 @@
         "setup": true,
         "name": "Tsuchigumo",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. If the player chosen was an Outsider and dies, you may act again. [+1 Outsider]"
+        "ability": "(New) Every night*, choose a player and an Outsider role: That player dies, and if they were that role, the Tsuchigumo may act again. [+1 Outsider]"
     },
     {
         "id": "keziah",
