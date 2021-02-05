@@ -250,22 +250,21 @@
         "ability": "Any Townsfolk who vote for you are drunk until dawn, even if you die."
     },
     {
-        "id": "muckraker",
-        "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/amnesiac.png?raw=true",
+        "id": "blighted",
+        "image": "https://github.com/lilserf/botc-icons/blob/main/blighted.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 2.5,
-        "otherNightReminder": "If possible, the Muckraker points to an alive player they haven't yet chosen, and then a role. If that player is good and is not that role: the Muckraker dies.",
-        "reminders": [],
-        "remindersGlobal": [
-            "Already Chosen",
-            "Die"
+        "otherNight": 0.25,
+        "otherNightReminder": "If the Blighted was executed last night, wake a Townsfolk player and tell them they are now the Blighted.",
+        "reminders": [
+            "Executed"
         ],
+        "remindersGlobal": [],
         "setup": false,
-        "name": "Muckraker",
+        "name": "Blighted",
         "team": "outsider",
-        "ability": "Each night*, choose an alive player you have not already chosen (if possible) and then choose a role. If they are good and are not that role: you die."
+        "ability": "If you are executed, a Townsfolk player's role changes to Blighted tonight."
     },
     {
         "id": "drunk2",
